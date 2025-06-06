@@ -31,9 +31,9 @@ python-dotenv
 ## Instalação
 1. Clone o repositório ou crie a pasta do projeto e adicione os arquivos conforme estrutura acima.
 2. Crie e ative um ambiente virtual (recomendado):
-    python -m venv venv
-    source venv/bin/activate  # Linux/Mac
-    venv\Scripts\activate     # Windows
+    - python -m venv venv
+    - source venv/bin/activate  (Linux/Mac)
+    - venv\Scripts\activate     (Windows)
 3. Instale as dependências
     pip install -r requirements.txt
 
