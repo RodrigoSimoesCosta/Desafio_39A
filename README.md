@@ -11,16 +11,15 @@ Este é um projeto de chatbot interativo construído com [Streamlit](https://str
 
 ## Estrutura
 chatbot_streamlit/
-├── app.py                   # Interface Streamlit
-├── chatbot_logic.py         # Lógica RAG + LLM fallback
-├── respostas_padrao.py      # Base de conhecimento (perguntas/respostas)
-├── products.py              # Lista de produtos fictícios
-├── proposta.py              # Geração de proposta
-├── requirements.txt         # Dependências do projeto
-└── README.md                # Documentação
+app.py                   (Interface Streamlit)
+chatbot_logic.py         (Lógica RAG + LLM fallback)
+respostas_padrao.py      (Base de conhecimento (perguntas/respostas))
+products.py              (Lista de produtos fictícios)
+proposta.py              (Geração de proposta)
+requirements.txt         (Dependências do projeto)
+README.md                (Documentação)
 
 ## Como rodar
-```bash
 pip install -r requirements.txt
 streamlit run app.py
 
