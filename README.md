@@ -40,7 +40,9 @@ Este é um projeto de chatbot interativo construído com [Streamlit](https://str
 ## Execução do Chatbot
 Rode o comando para iniciar o app Streamlit:
 
-    streamlit run app.py
+    - streamlit run app.py
+    ou
+    - python -m streamlit run app.py
 
 ## Arquivos Principais
 app.py : Interface da aplicação, captura o input do usuário e exibe as respostas do chatbot.
