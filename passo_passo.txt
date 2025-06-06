@@ -1,0 +1,14 @@
+# Criando um ambiente virtual
+python3 -m venv venv
+
+# Ativando e testando o ambiente linux
+source venv/bin/activate
+
+# Instale as Dependências
+pip install -r requirements.txt
+
+# Instalando o Streamlit
+pip install openai streamlit
+
+# Instale a biblioteca python-dotenv
+pip install python-dotenv
