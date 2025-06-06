@@ -45,22 +45,22 @@ Rode o comando para iniciar o app Streamlit:
     - python -m streamlit run app.py
 
 ## Arquivos Principais
-app.py : Interface da aplicação, captura o input do usuário e exibe as respostas do chatbot.
+- app.py : Interface da aplicação, captura o input do usuário e exibe as respostas do chatbot.
 
-chatbot_logic.py :  Inicializa o modelo "gpt-3.5-turbo".
+- chatbot_logic.py :  Inicializa o modelo "gpt-3.5-turbo".
                     Gera respostas baseadas no histórico da conversa para manter o contexto.
 
-products.py :   Contém a base de dados dos produtos do marketplace fictício, com nomes e preços.
+- products.py :   Contém a base de dados dos produtos do marketplace fictício, com nomes e preços.
 
 ## Fluxo de Conversa
-O usuário inicia perguntando sobre interesse em comprar algum produto.
-O bot sugere categorias e produtos disponíveis.
-O usuário escolhe um produto.
-O bot confirma a escolha e pede as informações (nome, e-mail, telefone).
-O bot gera uma proposta personalizada e fornece um link de checkout fictício.
+- O usuário inicia perguntando sobre interesse em comprar algum produto.
+- O bot sugere categorias e produtos disponíveis.
+- O usuário escolhe um produto.
+- O bot confirma a escolha e pede as informações (nome, e-mail, telefone).
+- O bot gera uma proposta personalizada e fornece um link de checkout fictício.
 
 ## Pontos de Melhoria
-Adicionar persistência do histórico em banco de dados.
-Implementar autenticação e segurança.
-Permitir múltiplos produtos no pedido.
-Ajustar prompt do LLM para respostas mais específicas e naturais.
+- Adicionar persistência do histórico em banco de dados.
+- Implementar autenticação e segurança.
+- Permitir múltiplos produtos no pedido.
+- Ajustar prompt do LLM para respostas mais específicas e naturais.
