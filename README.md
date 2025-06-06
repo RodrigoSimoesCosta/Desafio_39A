@@ -20,13 +20,13 @@ Este é um projeto de chatbot interativo construído com [Streamlit](https://str
 - README.md                (Documentação)
 
 ## Como rodar
-pip install -r requirements.txt
-streamlit run app.py
+- pip install -r requirements.txt
+- streamlit run app.py ou python -m streamlit run app.py
 
 ## Requisitos
-streamlit
-openai
-python-dotenv
+- streamlit
+- openai
+- python-dotenv
 
 ## Instalação
 1. Clone o repositório ou crie a pasta do projeto e adicione os arquivos conforme estrutura acima.
