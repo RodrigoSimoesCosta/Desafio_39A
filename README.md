@@ -26,7 +26,7 @@ Este é um projeto de chatbot interativo construído com [Streamlit](https://str
 ## Requisitos
 - streamlit
 - openai
-- python-dotenv
+- python-dotenv (Biblioteca Python, usada para carregar variáveis de ambiente definidas em um arquivo .env para dentro do seu script)
 
 ## Instalação
 1. Clone o repositório ou crie a pasta do projeto e adicione os arquivos conforme estrutura acima.
