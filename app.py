@@ -90,6 +90,6 @@ else:
     st.text_input("Você:", key="entrada_usuario", on_change=processar_entrada)
 
 # Botão extra para limpar chat sem reiniciar chatbot
-st.markdown("---")
-if st.button("🗑️ Limpar Chat"):
-    st.session_state.mensagens = []
+#st.markdown("---")
+#if st.button("🗑️ Limpar Chat"):
+#    st.session_state.mensagens = []
